@@ -14,7 +14,7 @@ Poți descărca fișierul `rojs.js` din acest repozitor pentru a-l adăuga la pr
 
 Codul RoScript trebuie scris într-un fișier separat, de exemplu `codul-meu.rojs` extensia `.rojs` nu este necesară, dar e recomandat să o folosești deoarece în viitor vor  apărea extensi pentru VSCode (dar și pentru alte editoare de text) care vor avea syntax highlighting și code snippets.
 
-Un program care calculaează suma a două numere:
+Un program care calculează suma a două numere:
 
     <!-- index.html -->
     <!DOCTYPE html>
