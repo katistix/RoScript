@@ -53,8 +53,8 @@ Pentru această versiune, principiul de funcționare este relativ simplu. Sunt t
 
 ## Dicționarul actual
 
-let = fie
-for = pentru
+let = fie <br>
+for = pentru <br>
 while = cat timp
 if = daca
 else = altfel
