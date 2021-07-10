@@ -21,7 +21,7 @@ Un program care calculaează suma a două numere:
     <html lang="en">
       <head>
         <title>Exemplu RoScript</title>
-	<script src="rojs.js"></script>
+        <script src="rojs.js"></script>
       </head>
       <body>
         <script>
