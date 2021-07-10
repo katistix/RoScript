@@ -17,31 +17,32 @@ Codul RoScript trebuie scris într-un fișier separat, de exemplu `codul-meu.roj
 Un program care calculaează suma a două numere:
 
     <!-- index.html -->
-    <!DOCTYPE  html>
-	<html  lang="en">
-	<head>
-		<title>Exemplu RoScript</title>
-		<script src="rojs.js"></script>
-	</head>
-	<body>
-		<script>
-			runRoJS("codul-meu.rojs");
-		</script>
-	</body>
-	</html>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <title>Exemplu RoScript</title>
+	<script src="rojs.js"></script>
+      </head>
+      <body>
+        <script>
+	  runRoJS("codul-meu.rojs");
+	</script>
+      </body>
+    </html>
 ---
+
     // codul-meu.rojs
     functie suma(a, b){
-    returneaza a + b;
-	}
-	fie rezultat = suma(5, 6);
-	scrie(rezultat);
+      returneaza a + b;
+    }
+    fie rezultat = suma(5, 6);
+    scrie(rezultat);
 ---
 Echivalentul codului de mai sus este:
 		
 
     function suma(a, b){
-	    return a + b;
+     return a + b;
     }
     let rezultat = suma(5, 6);
     console.log(rezultat);
