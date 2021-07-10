@@ -26,7 +26,7 @@ Un program care calculaează suma a două numere:
       <body>
         <script>
 	  runRoJS("codul-meu.rojs");
-	</script>
+        </script>
       </body>
     </html>
 ---
